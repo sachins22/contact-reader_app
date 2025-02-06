@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:message_read_app/home/message_read.dart';
-// import 'package:message_read_app/home/home.dart';
+import 'package:message_read_app/bottomNavi/bottomNavi.dart';
+
+
 
 void main() {
   runApp(const MyApp());
@@ -20,8 +21,7 @@ class MyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           themeMode: ThemeMode.dark,
           darkTheme: ThemeData.dark(useMaterial3: true),
-          // home: const HomePages(),
-          home: const MessageReadPages(),
+          home: const BottomPages(),
         );
       },
     );
